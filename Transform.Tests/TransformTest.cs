@@ -14,7 +14,7 @@ namespace Transform.Tests
             int[] numbers = new int[] { 1, 2, 3, 5 };
             int[] doubled = numbers.Map(x => x * 2).ToArray();
             int[] expected = new int[] { 2, 4, 6, 10 };
-            Assert.Equal(doubled, expected);
+            Assert.Equal(expected, doubled);
         }
     }
 }
